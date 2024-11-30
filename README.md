@@ -9,7 +9,7 @@ A partir de ahora, se podrán aplicar efectos, atributos y modificadores al comb
 ¿Cómo funciona el escalado de los efectos?
 - Simple, usando el valor de la configuración `effects-stat-power`, por ejemplo, con el valor en 1, si tenemos configurado que agilidad nos da el efecto de velocidad, y tenemos un personaje con 15 en agilidad, recibiremos el efecto de velocidad potenciado a 15. Es lo recomendado, pero se puede modificar 
 
-¿Cómo se puede probar esto sin reiniciar todo el rato?
+¿Cómo se puede probar esto sin reiniciar todo el rato y hacer la configuración inicial?
 
 **Es muy importante probar bien antes de quitar la lista y ponerlo para todos los jugadores**
 - Para poder hacer pruebas y no afectar a los usuarios normales, se usan dos cosas:
