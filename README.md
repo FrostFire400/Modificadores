@@ -1,4 +1,5 @@
 # Guía stats in-game
+
 ## Introducción
 A partir de ahora, se podrán aplicar efectos, atributos y modificadores al combate según los puntos de las stats.
 
