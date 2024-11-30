@@ -10,6 +10,8 @@ A partir de ahora, se podrán aplicar efectos, atributos y modificadores al comb
 - Simple, usando el valor de la configuración `effects-stat-power`, por ejemplo, con el valor en 1, si tenemos configurado que agilidad nos da el efecto de velocidad, y tenemos un personaje con 15 en agilidad, recibiremos el efecto de velocidad potenciado a 15. Es lo recomendado, pero se puede modificar 
 
 ¿Cómo se puede probar esto sin reiniciar todo el rato?
+
+**Es muy importante probar bien antes de quitar la lista y ponerlo para todos los jugadores**
 - Para poder hacer pruebas y no afectar a los usuarios normales, se usan dos cosas:
    - Lista de filtrado: Si añadimos players, solo se le aplicarán los efectos a esos jugadores
    - El comando `rpkcharactersreloadconfig` nos permite recargar esta configuración sin necesidad de reiniciar el servidor
