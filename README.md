@@ -1,22 +1,22 @@
 # Guía stats in-game
 ## Introducción
-A partir de ahora, se podran aplicar efectos, atributos y modificadores al combate segun los puntos de las stats.
+A partir de ahora, se podrán aplicar efectos, atributos y modificadores al combate según los puntos de las stats.
 
 ¿Cómo se aplican los efectos?
-- Los efectos de pociones y cambios de atributos (más vida, velocidad, etc), se aplican al conectarte o cambiarte de personaje, por ahora no hay un comando que refresque estos efectos hasta que no este bien testado el sistema
+- Los efectos de pociones y cambios de atributos (más vida, velocidad, etc), se aplican al conectarte o cambiarte de personaje, por ahora no hay un comando que refresque estos efectos hasta que no esté bien testado el sistema
 
 ¿Cómo funciona el escalado de los efectos?
 - Simple, usando el valor de la configuración `effects-stat-power`, por ejemplo, con el valor en 1, si tenemos configurado que agilidad nos da el efecto de velocidad, y tenemos un personaje con 15 en agilidad, recibiremos el efecto de velocidad potenciado a 15. Es lo recomendado, pero se puede modificar 
 
 ¿Cómo se puede probar esto sin reiniciar todo el rato?
 - Para poder hacer pruebas y no afectar a los usuarios normales, se usan dos cosas:
-   - Lista de filtrado: Si añadimos players, solo se le aplicaran los efectos a esos jugadores
+   - Lista de filtrado: Si añadimos players, solo se le aplicarán los efectos a esos jugadores
    - El comando `rpkcharactersreloadconfig` nos permite recargar esta configuración sin necesidad de reiniciar el servidor
 
 ## Configuración
-El fichero con las configuraciones esta en -> `plugins\rpk-characters-bukkit\config.yml`
+El fichero con las configuraciones está en -> `plugins\rpk-characters-bukkit\config.yml`
 
-Estando en el fichero, buscaremos la sección de `stats` que tendra el siguiente formato:
+Estando en el fichero, buscaremos la sección de `stats` que tendrá el siguiente formato:
 ```
 stats:
   players: # Whitelist para aplicar los efectos, si no tiene nombres, se aplicaran a todos los jugadores
